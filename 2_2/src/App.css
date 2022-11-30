@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.homepageHeader {
+    height: 50vh;
+    background-image: url("https://unsplash.it/1400?");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepageMain {
+    padding: 10px;
+}
+
+.homepageMain h2 {
+    font-size: 2rem;
+}

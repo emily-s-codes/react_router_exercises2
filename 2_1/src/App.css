@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.routePageDiv {
+    background-color: #F2E5E5;
+    color: #2A3990;
+    font-family: "AnekDevanagari-Regular", sans-serif;
+}
+
+.routePageDiv h2 {
+    text-align: center;
+    font-size: 2rem;
+}
