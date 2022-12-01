@@ -1,0 +1,13 @@
+.singleCarPageDiv {
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    background-color: gray;
+    padding: 20px;
+}
+
+.singleCarPageDiv h1,
+.singleCarPageDiv h2,
+.singleCarPageDiv p {
+    color: skyblue;
+}

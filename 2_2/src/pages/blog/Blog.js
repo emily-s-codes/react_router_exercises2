@@ -1,7 +1,6 @@
 import "./Blog.css"
 import Navigation from "../../components/navigation/Navigation";
 // import { useParams } from "react-router-dom";
-// import blogData from "./data.json"
 // import ReadMore from "../../components/button/ReadMore";
 import BlogArticle from "../../components/blogArticleCard/BlogArticleCard";
 import blogArticles from "./data.json";

@@ -1,0 +1,22 @@
+.singleCarDiv {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carMake {
+    color: skyblue;
+}
+
+.singleCarDiv a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.singleCarDiv a:hover {
+    text-decoration: underline;
+    color: aqua;
+}

@@ -1,0 +1,21 @@
+.headerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.headerDiv a {
+    text-decoration: none;
+    background-color: gray;
+    color: skyblue;
+    padding: 5px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.headerDiv a:hover {
+    text-decoration: underline;
+    background-color: skyblue;
+    color: gray;
+}
