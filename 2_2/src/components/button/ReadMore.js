@@ -1,11 +1,10 @@
 import "./ReadMore.css";
-import { NavLink } from "react-router-dom";
 
 const ReadMore = () => {
     return (
-        <NavLink to="/blog" activeClassName="current" exact>
-            <button type="button" className="readMoreButton" >Read more</button>
-        </NavLink>);
+
+        <button type="button" className="readMoreButton" >Read more</button>
+    );
 }
 
 export default ReadMore; 

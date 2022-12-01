@@ -7,7 +7,7 @@
 
 .homepageHeader {
     height: 50vh;
-    background-image: url("https://unsplash.it/1400?");
+    background-image: url("./assets/img/homepagebg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,4 +19,11 @@
 
 .homepageMain h2 {
     font-size: 2rem;
+}
+
+.blogPageSection {
+    display: grid;
+    margin: 0 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }

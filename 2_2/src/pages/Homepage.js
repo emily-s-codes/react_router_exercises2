@@ -1,5 +1,7 @@
 import ReadMore from "../components/button/ReadMore";
 import Navigation from "../components/navigation/Navigation";
+import { Link } from "react-router-dom";
+import homepagebg from "../assets/img/homepagebg.jpg";
 
 const Homepage = () => {
     return (<div>
@@ -8,7 +10,7 @@ const Homepage = () => {
         </header>
         <main className="homepageMain">
             <h2>Welcome to my simple blog</h2>
-            <ReadMore />
+            <Link to={`/blog/`}><ReadMore /></Link>
         </main>
     </div>);
 }

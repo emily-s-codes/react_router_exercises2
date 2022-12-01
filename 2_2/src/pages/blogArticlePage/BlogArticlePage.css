@@ -1,0 +1,35 @@
+.blogArticleContentSection {
+    margin: 20px 50px;
+}
+
+.blogArticlePage img {
+    width: 80%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    margin-left: 20%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    aspect-ratio: 1/1;
+}
+
+.blogDetailTitleBanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.blogDetailTitleBanner h2 {
+    font-size: 3rem;
+}
+
+.blogDetailTitleBanner p {
+    font-weight: bold;
+}
+
+.blogArticleAuthor {
+    font-weight: bold;
+    margin-top: 10px;
+}
